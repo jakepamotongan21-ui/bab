@@ -93,7 +93,7 @@ body::after {
 
 
 
-/* Container */
+
 .hearts {
     position: fixed;
     bottom: 0;
@@ -102,7 +102,7 @@ body::after {
     pointer-events: none;
 }
 
-/* Each heart */
+
 .hearts span {
     position: absolute;
     bottom: 0;
@@ -111,7 +111,7 @@ body::after {
     opacity: 0.7;
 }
 
-/* Different positions + delays */
+
 .hearts span:nth-child(1) {
     left: 10%;
     animation-delay: 0s;
@@ -133,7 +133,6 @@ body::after {
     animation-delay: 3s;
 }
 
-/* Animation */
 @keyframes floatUp {
     0% {
         transform: translateY(0) scale(1);
